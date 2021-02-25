@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kelvi\\Documents\\FEI\\7 semestre\\Sistemas Distribuidos\\atv\\TestaPrimo\\TestaPrimo.csproj",
+      "projectUniqueName": "C:\\Users\\kelvi\\Documents\\FEI\\7 semestre\\Sistemas Distribuidos\\Atividade 01\\TestePrimo\\TestaPrimo.csproj",
       "projectName": "TestaPrimo",
-      "projectPath": "C:\\Users\\kelvi\\Documents\\FEI\\7 semestre\\Sistemas Distribuidos\\atv\\TestaPrimo\\TestaPrimo.csproj",
+      "projectPath": "C:\\Users\\kelvi\\Documents\\FEI\\7 semestre\\Sistemas Distribuidos\\Atividade 01\\TestePrimo\\TestaPrimo.csproj",
       "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kelvi\\Documents\\FEI\\7 semestre\\Sistemas Distribuidos\\atv\\TestaPrimo\\obj\\",
+      "outputPath": "C:\\Users\\kelvi\\Documents\\FEI\\7 semestre\\Sistemas Distribuidos\\Atividade 01\\TestePrimo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",

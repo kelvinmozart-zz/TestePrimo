@@ -12,9 +12,10 @@ namespace TestaPrimo
             Stopwatch sw = new Stopwatch();
 
             var n = 2147483647;
-            int primo = valor.Primo(n);
+            var rodar = 20;
+            int primo = valor.Primo3(n);
             int[] vetor;
-            vetor = new int[10];
+            vetor = new int[rodar];
             //var count = 0;
 
             if (primo == 1)
@@ -22,21 +23,21 @@ namespace TestaPrimo
             else
                 Console.WriteLine("Nao eh Primo");
 
-            for(int i=0; i<10; i++)
+            for(int i=0; i<rodar; i++)
             {
                 sw.Start();
-                valor.Primo(n);
+                valor.Primo3(n);
                 sw.Stop();
                 vetor[i] = (int)sw.ElapsedTicks;
-                Console.WriteLine($"Tempo {i}: {sw.ElapsedTicks}ms");
+                Console.WriteLine($"Tempo {i+1}: {sw.Elapsed.TotalMilliseconds}ms");
             }
             var media = 0;
             var soma = 0;
-            for(int j=0; j<10; j++)
+            for(int j=0; j<rodar; j++)
             {
                 soma = vetor[j] + soma;
             }
-            media = soma / 10;
+            media = soma / rodar;
             
             Console.WriteLine($"Tempo passado: {media}ms");
         }

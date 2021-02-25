@@ -11,3 +11,16 @@ C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\atv\TestaPrimo\obj
 C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\atv\TestaPrimo\obj\Debug\netcoreapp3.1\TestaPrimo.dll
 C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\atv\TestaPrimo\obj\Debug\netcoreapp3.1\TestaPrimo.pdb
 C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\atv\TestaPrimo\obj\Debug\netcoreapp3.1\TestaPrimo.genruntimeconfig.cache
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\bin\Debug\netcoreapp3.1\TestaPrimo.exe
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\bin\Debug\netcoreapp3.1\TestaPrimo.deps.json
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\bin\Debug\netcoreapp3.1\TestaPrimo.runtimeconfig.json
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\bin\Debug\netcoreapp3.1\TestaPrimo.runtimeconfig.dev.json
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\bin\Debug\netcoreapp3.1\TestaPrimo.dll
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\bin\Debug\netcoreapp3.1\TestaPrimo.pdb
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.csprojAssemblyReference.cache
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.AssemblyInfoInputs.cache
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.AssemblyInfo.cs
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.csproj.CoreCompileInputs.cache
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.dll
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.pdb
+C:\Users\kelvi\Documents\FEI\7 semestre\Sistemas Distribuidos\Atividade 01\TestePrimo\obj\Debug\netcoreapp3.1\TestaPrimo.genruntimeconfig.cache

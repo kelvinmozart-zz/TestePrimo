@@ -21,6 +21,42 @@ namespace TestaPrimo
             }
             return ehPrimo;
         }
+
+        public int Primo2(int n)
+        {
+            int ehPrimo;
+            var d = 3;
+
+            if (n <= 1 || (n != 2 && n % 2 == 0))
+                ehPrimo = 0;   
+            else
+                ehPrimo = 1;        
+
+            while (ehPrimo == 1 && d <= n / 2)
+            {
+                if (n % d == 0)
+                    ehPrimo = 0;
+                d = d + 2;        
+            }
+            return ehPrimo;
+        }
+
+        public int Primo3(int n)
+        {
+            int ehPrimo;
+            var d = 3;
+            if (n <= 1 || (n != 2 && n % 6 == 1 && n % 6 == 5))
+                ehPrimo = 0;    
+            else
+                ehPrimo = 1;
+            while (ehPrimo == 1 && d <= n / 2)
+            {
+                if (n % d == 0)
+                    ehPrimo = 0;
+                d = d + 2;
+            }
+            return ehPrimo;
+        }
         
     }
 }
