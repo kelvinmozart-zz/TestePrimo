@@ -8,8 +8,8 @@ namespace TestaPrimo
     {
         public int Primo(int n)
         {
-            var ehPrimo = 1;
-            var d = 2;
+            int ehPrimo = 1;
+            int d = 2;
     
             if (n <= 1)
     	        ehPrimo = 0;
@@ -25,7 +25,7 @@ namespace TestaPrimo
         public int Primo2(int n)
         {
             int ehPrimo;
-            var d = 3;
+            int d = 3;
 
             if (n <= 1 || (n != 2 && n % 2 == 0))
                 ehPrimo = 0;   
@@ -44,7 +44,7 @@ namespace TestaPrimo
         public int Primo3(int n)
         {
             int ehPrimo;
-            var d = 3;
+            int d = 3;
             if (n <= 1 || (n != 2 && n % 6 == 1 && n % 6 == 5))
                 ehPrimo = 0;    
             else
