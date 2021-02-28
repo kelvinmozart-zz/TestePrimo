@@ -11,9 +11,9 @@ namespace TestaPrimo
             TestaPrimo valor = new TestaPrimo();
             var sw = new Stopwatch();
 
-            int n = 7; // Para grandes numeros recomendo diminuir o numero e rodar abaixo
-            int rodar = 10;
-            int primo = valor.Primo(n);
+            long n = 7; // Para grandes numeros recomendo diminuir o numero e rodar abaixo
+            int rodar = 30;
+            int primo = valor.Primo3(n);
             long[] vetor;
             vetor = new long[rodar];
 
@@ -25,7 +25,7 @@ namespace TestaPrimo
             for(int i=0; i<rodar; i++)
             {
                 sw.Start();
-                valor.Primo(n);
+                valor.Primo3(n);
                 sw.Stop();
                 vetor[i] = (long)sw.Elapsed.Ticks;
                 Console.WriteLine($"Tempo {i+1}: {sw.Elapsed.Ticks} ciclos");
