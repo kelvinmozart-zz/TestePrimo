@@ -9,13 +9,13 @@ namespace TestaPrimo
         static void Main(string[] args)
         {
             TestaPrimo valor = new TestaPrimo();
-            Stopwatch sw = new Stopwatch();
+            var sw = new Stopwatch();
 
-            int n = 2147483647; // Para grandes numeros recomendo diminuir o numero e rodar abaixo
+            int n = 7; // Para grandes numeros recomendo diminuir o numero e rodar abaixo
             int rodar = 10;
             int primo = valor.Primo(n);
-            int[] vetor;
-            vetor = new int[rodar];
+            long[] vetor;
+            vetor = new long[rodar];
 
             if (primo == 1)
                 Console.WriteLine("Eh Primo");
@@ -27,28 +27,28 @@ namespace TestaPrimo
                 sw.Start();
                 valor.Primo(n);
                 sw.Stop();
-                vetor[i] = (int)sw.Elapsed.TotalMilliseconds;
-                Console.WriteLine($"Tempo {i+1}: {sw.Elapsed.TotalMilliseconds} ms");
+                vetor[i] = (long)sw.Elapsed.Ticks;
+                Console.WriteLine($"Tempo {i+1}: {sw.Elapsed.Ticks} ciclos");
             }
-            float media = 0;
-            float soma = 0;
+            long media = 0;
+            long soma = 0;
             for(int j=0; j<rodar; j++)
             {
                 soma += vetor[j];
             }
             media = soma / rodar;
 
-            float somaDoDesvio = 0;
-            float diff = 0;
+            long somaDoDesvio = 0;
+            long diff = 0;
             for(int k=0; k<rodar; k++)
             {
                 diff = vetor[k] - media;
-                somaDoDesvio += (float)Math.Pow(diff, 2);
+                somaDoDesvio += (long)Math.Pow(diff, 2);
             }
-            float desvioPadrao = (float)Math.Sqrt(somaDoDesvio / rodar);
+            long desvioPadrao = (long)Math.Sqrt(somaDoDesvio / rodar);
             
 
-            Console.WriteLine($"Tempo medio passado: {media} ms");
+            Console.WriteLine($"Tempo medio passado: {media} ciclos");
             Console.WriteLine($"Desvio padrao: {desvioPadrao}");
         }
     }
