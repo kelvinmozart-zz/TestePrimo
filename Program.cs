@@ -11,11 +11,11 @@ namespace TestaPrimo
             TestaPrimo valor = new TestaPrimo();
             var sw = new Stopwatch();
 
-            long n = 7; // Para grandes numeros recomendo diminuir o numero e rodar abaixo
+            int n = 27; // Para grandes numeros recomendo diminuir o numero e rodar abaixo
             int rodar = 30;
             int primo = valor.Primo3(n);
-            long[] vetor;
-            vetor = new long[rodar];
+            int[] vetor = new int[rodar];
+            int soma = 0;
 
             if (primo == 1)
                 Console.WriteLine("Eh Primo");
@@ -27,26 +27,22 @@ namespace TestaPrimo
                 sw.Start();
                 valor.Primo3(n);
                 sw.Stop();
-                vetor[i] = (long)sw.Elapsed.Ticks;
-                Console.WriteLine($"Tempo {i+1}: {sw.Elapsed.Ticks} ciclos");
+                vetor[i] = (int)sw.Elapsed.Ticks;
+                //Console.WriteLine($"Tempo {i+1}: {sw.Elapsed.Ticks} ciclos");
+                soma += vetor[i];
             }
-            long media = 0;
-            long soma = 0;
-            for(int j=0; j<rodar; j++)
-            {
-                soma += vetor[j];
-            }
-            media = soma / rodar;
+            
+            int media = soma / rodar;
 
-            long somaDoDesvio = 0;
-            long diff = 0;
+            int somaDoDesvio = 0;
+
             for(int k=0; k<rodar; k++)
             {
-                diff = vetor[k] - media;
-                somaDoDesvio += (long)Math.Pow(diff, 2);
+                int diff = vetor[k] - media;
+                somaDoDesvio += (int)Math.Pow(diff, 2);
             }
-            long desvioPadrao = (long)Math.Sqrt(somaDoDesvio / rodar);
-            
+
+            int desvioPadrao = (int)Math.Sqrt(somaDoDesvio / rodar);
 
             Console.WriteLine($"Tempo medio passado: {media} ciclos");
             Console.WriteLine($"Desvio padrao: {desvioPadrao}");

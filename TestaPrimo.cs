@@ -6,7 +6,7 @@ namespace TestaPrimo
 {
     class TestaPrimo
     {
-        public int Primo(long n)
+        public int Primo(int n)
         {
             int ehPrimo = 1;
             int d = 2;
@@ -22,7 +22,7 @@ namespace TestaPrimo
             return ehPrimo;
         }
 
-        public int Primo2(long n)
+        public int Primo2(int n)
         {
             int ehPrimo;
             int d = 3;
@@ -41,7 +41,7 @@ namespace TestaPrimo
             return ehPrimo;
         }
 
-        public int Primo3(long n)
+        public int Primo3(int n)
         {
             int ehPrimo;
             int d = 3;
